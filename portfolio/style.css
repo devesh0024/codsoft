@@ -1,0 +1,144 @@
+html , body{
+    margin: 0;
+    height: 100%;
+}
+
+
+.container{
+    background-image: url(images/developer.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span.devesh{
+    font-size: 50px;
+    font-weight: 200;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    /* margin: auto auto; */
+    /* text-transform: uppercase; */
+    letter-spacing: 3px;
+}
+
+span.secondheading{
+    font-size: 50px;
+    font-weight: 200;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 3px;
+    top: 25%;
+}
+
+.container2{
+    background-color: black;
+    min-height: 50%;
+}
+
+span.work{
+    font-size: 70px;
+    font-weight: 200;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 250px;
+    text-transform: uppercase;
+    /* top: 25%; */
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(320px , 1fr));
+    gap: 20px;
+    margin: 50px 200px;
+}
+
+.card{
+    max-width: 320px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgb(1, 1, 1 ,0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgb(1, 1, 1 ,0.3);
+    transition: 0.3s ease-in-out;
+}
+
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.bottom_section{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    background-color: #e9f273;
+    color: black;
+}
+.about{
+    background-color: #f5c3ad;
+    color: black;
+}
+
+.contact , .about{
+    min-height: 300px;
+    /* color: white; */
+    padding: 20px;
+    font-size: 30px;
+    flex: 1; /* This ensures both items take equal space */
+    flex-basis: 50%; /* Sets initial size to 50% each */
+}
+
+.contact h2, .about h2{
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 40px;
+    color: white;
+    font-size: 30px;
+    min-height: 100px;
+}
+
+.projects {
+    padding: 40px;
+    background-color: rgb(157, 173, 218);
+  }
+  
+  .project {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 126, 134);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
